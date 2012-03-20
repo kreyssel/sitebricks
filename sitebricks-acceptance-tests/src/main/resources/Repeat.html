@@ -55,7 +55,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 
                     <ul>
                         @Repeat(items=movies, var="movie")
-                        <li> @Repeat(items=movie.actors, var="actor")<span>${actor} </span> </li>
+                        <li> @Repeat(items=movie.actors, var="actor")<span>${movie.name} ${actor} </span> </li>
                     </ul>
 
                     <br/><br/><br/>

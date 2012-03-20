@@ -22,6 +22,10 @@ public class Repeat {
     }
 
     public static class Movie {
+    	
+    		public String getName() {
+    			return "movie " + hashCode();
+    		}
 
         //try a collection this time. same as property Repeat.getNames() from the outer class
         public Collection<String> getActors() {
